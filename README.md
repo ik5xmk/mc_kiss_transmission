@@ -494,4 +494,4 @@ No third-party Python libraries are required.
 
 ## Disclaimer
 
-This is an application-layer utility built on top of the MeshCom KISS/TCP interface. `MCF1`, the READY handshake, compression, payload encryption, block management and file reconstruction are application features of this program and are not part of the MeshCom KISS protocol itself.
+This is an application-layer utility built on top of the MeshCom KISS/TCP interface. `MCF1`, the READY handshake, compression, payload encryption, block management and file reconstruction are application features of this program and are not part of the MeshCom KISS protocol itself. No liability is assumed; any use of this code is at your own risk, and no support or assistance is provided.
