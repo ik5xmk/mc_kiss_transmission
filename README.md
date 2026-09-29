@@ -404,7 +404,7 @@ Example:
 
 ```json
 {
-    "meshcom_ip": "ik5xmk.duckdns.org",
+    "meshcom_ip": "YOUR_PUBBLIC_IP",
     "meshcom_port": 8001,
     "mycall": "IK5XMK-12",
     "download_dir": "received",
