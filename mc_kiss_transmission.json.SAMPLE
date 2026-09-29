@@ -1,0 +1,23 @@
+{
+    "_comment": "Example configuration for mc_kiss_transmission.py",
+    "meshcom_ip": "192.168.1.100",
+    "meshcom_port": 8001,
+    "mycall": "IU5ABC-1",
+    "download_dir": "received",
+    "block_size": 60,
+    "max_file_size": 10240,
+    "allowed_extensions": [
+        ".txt",
+        ".csv"
+    ],
+    "connect_timeout": 10.0,
+    "tx_result_timeout": 5.0,
+    "ack_timeout": 45.0,
+    "tx_interval": 3.0,
+    "max_retries": 5,
+    "show_packets": true,
+    "auto_compress": true,
+    "encryption_password": "",
+    "encryption_iterations": 200000,
+    "kiss_auth_password": ""
+}
