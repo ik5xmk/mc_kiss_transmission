@@ -2,7 +2,7 @@
 
 `mc_kiss_transmission.py` is a small, portable Python utility for transferring **small text files** between two computers through MeshCom nodes using **KISS/TCP**.
 
-It is designed for simple field and emergency-style operation where a short TXT or CSV file must be moved through the existing MeshCom radio network without requiring external Python packages.
+It is designed for simple field and emergency-style operation where a short TXT or CSV file must be moved through the existing MeshCom radio network.
 
 The program can run on **Linux, Windows and macOS** and uses only the Python standard library.
 
