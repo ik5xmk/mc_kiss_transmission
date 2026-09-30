@@ -219,7 +219,7 @@ On the receiver the operations are reversed. The reconstructed original data is 
 
 ## Configuration
 
-Example `meshcom_file.json`:
+Example `mc_kiss_transmission.json`:
 
 ```json
 {
