@@ -285,7 +285,7 @@ Example:
 Start the program on endpoint B before transmitting:
 
 ```bash
-python mc_kiss_transmission.py --config meshcom_file.json --receive
+python mc_kiss_transmission.py --config mc_kiss_transmission.json --receive
 ```
 
 The receiver connects to its configured MeshCom KISS/TCP endpoint and remains active until `CTRL+C`.
@@ -297,7 +297,7 @@ When it receives `READY?`, it immediately returns the matching `OKREADY`. Normal
 On endpoint A:
 
 ```bash
-python mc_kiss_transmission.py --config meshcom_file.json --to IK5XMK-12 --send file.txt
+python mc_kiss_transmission.py --config mc_kiss_transmission.json --to IK5XMK-12 --send file.txt
 ```
 
 The program first checks the destination receiver with `READY?` / `OKREADY`.
